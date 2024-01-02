@@ -27,5 +27,16 @@ python3 -m http.server
 Otherwise you can build it from scratch using javascript:
 ```sh
 npm install
-npm run dev
+npm run build
 ```
+
+To scrape the data, 
+```sh
+cd data_collection/
+python3 -m venv data_collection_venv
+source data_collection_venv/bin/activate
+jupyter-notebook
+```
+Then run the notebook step by step.
+
+
