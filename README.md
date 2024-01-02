@@ -34,9 +34,10 @@ To scrape the data,
 ```sh
 cd data_collection/
 python3 -m venv data_collection_venv
+pip3 install -r requirements.txt
 source data_collection_venv/bin/activate
 jupyter-notebook
 ```
-Then run the notebook step by step.
+Then run the notebook step by step. Make sure a compatible [geckodriver](https://firefox-source-docs.mozilla.org/testing/geckodriver/Support.html) is available. 
 
 
